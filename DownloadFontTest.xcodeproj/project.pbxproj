@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAC6DBA7F1A378300432D17A /* libPods-DownloadFontTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 921BE98D4380F1A0AB153817 /* libPods-DownloadFontTest.a */; };
+		CC8A6C861B93902C00BAE3C2 /* font.html in Resources */ = {isa = PBXBuildFile; fileRef = CC8A6C851B93902C00BAE3C2 /* font.html */; };
+		CCDEE64C1B936A3A00C8FF86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEE64B1B936A3A00C8FF86 /* AppDelegate.swift */; };
+		CCDEE64E1B936A3A00C8FF86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEE64D1B936A3A00C8FF86 /* ViewController.swift */; };
+		CCDEE6511B936A3A00C8FF86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCDEE64F1B936A3A00C8FF86 /* Main.storyboard */; };
+		CCDEE6531B936A3A00C8FF86 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDEE6521B936A3A00C8FF86 /* Images.xcassets */; };
+		CCDEE6561B936A3A00C8FF86 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCDEE6541B936A3A00C8FF86 /* LaunchScreen.xib */; };
+		CCDEE6621B936A3A00C8FF86 /* DownloadFontTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDEE6611B936A3A00C8FF86 /* DownloadFontTestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCDEE65C1B936A3A00C8FF86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCDEE63E1B936A3A00C8FF86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCDEE6451B936A3A00C8FF86;
+			remoteInfo = DownloadFontTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2576119A9EAF00398EF49960 /* Pods-DownloadFontTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadFontTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadFontTest/Pods-DownloadFontTest.debug.xcconfig"; sourceTree = "<group>"; };
+		8A2ECD301382CFDF2A11BA32 /* Pods-DownloadFontTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadFontTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadFontTest/Pods-DownloadFontTest.release.xcconfig"; sourceTree = "<group>"; };
+		921BE98D4380F1A0AB153817 /* libPods-DownloadFontTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DownloadFontTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC8A6C851B93902C00BAE3C2 /* font.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = font.html; sourceTree = "<group>"; };
+		CCDEE6461B936A3A00C8FF86 /* DownloadFontTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadFontTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDEE64A1B936A3A00C8FF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDEE64B1B936A3A00C8FF86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCDEE64D1B936A3A00C8FF86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCDEE6501B936A3A00C8FF86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCDEE6521B936A3A00C8FF86 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CCDEE6551B936A3A00C8FF86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CCDEE65B1B936A3A00C8FF86 /* DownloadFontTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownloadFontTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCDEE6601B936A3A00C8FF86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCDEE6611B936A3A00C8FF86 /* DownloadFontTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadFontTestTests.swift; sourceTree = "<group>"; };
+		CCDEE66B1B936EB200C8FF86 /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCDEE6431B936A3A00C8FF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC6DBA7F1A378300432D17A /* libPods-DownloadFontTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDEE6581B936A3A00C8FF86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		441D182D35B43975D97CCFC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2576119A9EAF00398EF49960 /* Pods-DownloadFontTest.debug.xcconfig */,
+				8A2ECD301382CFDF2A11BA32 /* Pods-DownloadFontTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		975F8C2FB65032EF7D7D5312 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				921BE98D4380F1A0AB153817 /* libPods-DownloadFontTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCDEE63D1B936A3A00C8FF86 = {
+			isa = PBXGroup;
+			children = (
+				CCDEE6481B936A3A00C8FF86 /* DownloadFontTest */,
+				CCDEE65E1B936A3A00C8FF86 /* DownloadFontTestTests */,
+				CCDEE6471B936A3A00C8FF86 /* Products */,
+				441D182D35B43975D97CCFC8 /* Pods */,
+				975F8C2FB65032EF7D7D5312 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCDEE6471B936A3A00C8FF86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCDEE6461B936A3A00C8FF86 /* DownloadFontTest.app */,
+				CCDEE65B1B936A3A00C8FF86 /* DownloadFontTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCDEE6481B936A3A00C8FF86 /* DownloadFontTest */ = {
+			isa = PBXGroup;
+			children = (
+				CCDEE64B1B936A3A00C8FF86 /* AppDelegate.swift */,
+				CCDEE64D1B936A3A00C8FF86 /* ViewController.swift */,
+				CCDEE64F1B936A3A00C8FF86 /* Main.storyboard */,
+				CCDEE6521B936A3A00C8FF86 /* Images.xcassets */,
+				CCDEE6541B936A3A00C8FF86 /* LaunchScreen.xib */,
+				CCDEE6491B936A3A00C8FF86 /* Supporting Files */,
+			);
+			path = DownloadFontTest;
+			sourceTree = "<group>";
+		};
+		CCDEE6491B936A3A00C8FF86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC8A6C851B93902C00BAE3C2 /* font.html */,
+				CCDEE64A1B936A3A00C8FF86 /* Info.plist */,
+				CCDEE66B1B936EB200C8FF86 /* Bridge-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCDEE65E1B936A3A00C8FF86 /* DownloadFontTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCDEE6611B936A3A00C8FF86 /* DownloadFontTestTests.swift */,
+				CCDEE65F1B936A3A00C8FF86 /* Supporting Files */,
+			);
+			path = DownloadFontTestTests;
+			sourceTree = "<group>";
+		};
+		CCDEE65F1B936A3A00C8FF86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCDEE6601B936A3A00C8FF86 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCDEE6451B936A3A00C8FF86 /* DownloadFontTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDEE6651B936A3A00C8FF86 /* Build configuration list for PBXNativeTarget "DownloadFontTest" */;
+			buildPhases = (
+				DA81B56B7CEC65BE3FD69548 /* Check Pods Manifest.lock */,
+				CCDEE6421B936A3A00C8FF86 /* Sources */,
+				CCDEE6431B936A3A00C8FF86 /* Frameworks */,
+				CCDEE6441B936A3A00C8FF86 /* Resources */,
+				7CCF3E96BE80E971F98062F0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownloadFontTest;
+			productName = DownloadFontTest;
+			productReference = CCDEE6461B936A3A00C8FF86 /* DownloadFontTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCDEE65A1B936A3A00C8FF86 /* DownloadFontTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCDEE6681B936A3A00C8FF86 /* Build configuration list for PBXNativeTarget "DownloadFontTestTests" */;
+			buildPhases = (
+				CCDEE6571B936A3A00C8FF86 /* Sources */,
+				CCDEE6581B936A3A00C8FF86 /* Frameworks */,
+				CCDEE6591B936A3A00C8FF86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCDEE65D1B936A3A00C8FF86 /* PBXTargetDependency */,
+			);
+			name = DownloadFontTestTests;
+			productName = DownloadFontTestTests;
+			productReference = CCDEE65B1B936A3A00C8FF86 /* DownloadFontTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCDEE63E1B936A3A00C8FF86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Tetsuya Shiraishi";
+				TargetAttributes = {
+					CCDEE6451B936A3A00C8FF86 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					CCDEE65A1B936A3A00C8FF86 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = CCDEE6451B936A3A00C8FF86;
+					};
+				};
+			};
+			buildConfigurationList = CCDEE6411B936A3A00C8FF86 /* Build configuration list for PBXProject "DownloadFontTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCDEE63D1B936A3A00C8FF86;
+			productRefGroup = CCDEE6471B936A3A00C8FF86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCDEE6451B936A3A00C8FF86 /* DownloadFontTest */,
+				CCDEE65A1B936A3A00C8FF86 /* DownloadFontTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCDEE6441B936A3A00C8FF86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDEE6511B936A3A00C8FF86 /* Main.storyboard in Resources */,
+				CCDEE6561B936A3A00C8FF86 /* LaunchScreen.xib in Resources */,
+				CCDEE6531B936A3A00C8FF86 /* Images.xcassets in Resources */,
+				CC8A6C861B93902C00BAE3C2 /* font.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDEE6591B936A3A00C8FF86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CCF3E96BE80E971F98062F0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownloadFontTest/Pods-DownloadFontTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA81B56B7CEC65BE3FD69548 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCDEE6421B936A3A00C8FF86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDEE64E1B936A3A00C8FF86 /* ViewController.swift in Sources */,
+				CCDEE64C1B936A3A00C8FF86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCDEE6571B936A3A00C8FF86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCDEE6621B936A3A00C8FF86 /* DownloadFontTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCDEE65D1B936A3A00C8FF86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCDEE6451B936A3A00C8FF86 /* DownloadFontTest */;
+			targetProxy = CCDEE65C1B936A3A00C8FF86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCDEE64F1B936A3A00C8FF86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDEE6501B936A3A00C8FF86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCDEE6541B936A3A00C8FF86 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCDEE6551B936A3A00C8FF86 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCDEE6631B936A3A00C8FF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCDEE6641B936A3A00C8FF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCDEE6661B936A3A00C8FF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2576119A9EAF00398EF49960 /* Pods-DownloadFontTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DownloadFontTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/DownloadFontTest/Bridge-Header.h";
+			};
+			name = Debug;
+		};
+		CCDEE6671B936A3A00C8FF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A2ECD301382CFDF2A11BA32 /* Pods-DownloadFontTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DownloadFontTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/DownloadFontTest/Bridge-Header.h";
+			};
+			name = Release;
+		};
+		CCDEE6691B936A3A00C8FF86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DownloadFontTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownloadFontTest.app/DownloadFontTest";
+			};
+			name = Debug;
+		};
+		CCDEE66A1B936A3A00C8FF86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DownloadFontTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DownloadFontTest.app/DownloadFontTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCDEE6411B936A3A00C8FF86 /* Build configuration list for PBXProject "DownloadFontTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDEE6631B936A3A00C8FF86 /* Debug */,
+				CCDEE6641B936A3A00C8FF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDEE6651B936A3A00C8FF86 /* Build configuration list for PBXNativeTarget "DownloadFontTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDEE6661B936A3A00C8FF86 /* Debug */,
+				CCDEE6671B936A3A00C8FF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCDEE6681B936A3A00C8FF86 /* Build configuration list for PBXNativeTarget "DownloadFontTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCDEE6691B936A3A00C8FF86 /* Debug */,
+				CCDEE66A1B936A3A00C8FF86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCDEE63E1B936A3A00C8FF86 /* Project object */;
+}

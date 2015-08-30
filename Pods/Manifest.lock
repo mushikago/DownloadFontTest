@@ -1,0 +1,10 @@
+PODS:
+  - Download-Font-iOS (1.0.0)
+
+DEPENDENCIES:
+  - Download-Font-iOS
+
+SPEC CHECKSUMS:
+  Download-Font-iOS: dd03455f94fc9c59447e666ece6ae4776ef6e797
+
+COCOAPODS: 0.38.2
